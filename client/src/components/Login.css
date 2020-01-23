@@ -1,0 +1,23 @@
+.wrapper-login{
+    margin-top: 10% !important;
+    border: solid 1px #ddd;
+    width: 60% !important;
+    padding: 100px;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+}
+
+.input{
+    min-width: 350px;
+}
+
+@media(max-width: 768px){
+    .wrapper-login{
+        margin-top: 15% !important;       
+        padding: 10px;
+    }
+
+    .input{
+        min-width: unset !important;
+    }
+}

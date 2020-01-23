@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "indorz.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "user": "npm start --prefix server_user",
+    "coupon": "npm start --prefix server_coupon",
+    "msg": "npm start --prefix server_msg",
+    "startall": "concurrently --kill-others \"npm run client\" \" npm run user\" \" npm run coupon\" \" npm run msg\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedorovmichael/indorz.co.git"
+  },
+  "author": "Michael Fedorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedorovmichael/indorz.co/issues"
+  },
+  "homepage": "https://github.com/fedorovmichael/indorz.co#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  }
+}

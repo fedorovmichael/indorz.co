@@ -1,0 +1,35 @@
+.wrapper-registration{
+    margin-top: 5% !important;
+    border: solid 1px #ddd;
+    width: 60% !important;
+    padding: 100px;
+    border-radius: 5px;
+    background-color: #fdfdfd;    
+}
+
+.input-registration{
+    min-width: 350px !important;
+}
+
+.gift-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.gift-wrapper-div{
+    width: 350px !important;
+    text-align: left;
+}
+
+@media(max-width: 768px){
+    .input-registration{
+        min-width: unset !important;
+    }
+
+    .wrapper-registration{
+        padding: 10px;
+        width: 80% !important;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

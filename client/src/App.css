@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.display-f{
+  display: flex;  
+}
+
+.justifyCo-c{
+  justify-content: center;
+} 
